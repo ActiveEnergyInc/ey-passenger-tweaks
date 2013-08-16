@@ -1,5 +1,5 @@
 # Add your appname here
-app_name = 'example'
+app_name = node['name']
 # Add the new worker count you want
 worker_count = 6
 # Add the memory limit you want to pass
