@@ -2,7 +2,7 @@
 worker_count = 6
 # Add the memory limit you want to pass
 # to passenger_monitor in MB
-memory_limit = 600
+memory_limit = 700
 
 if ['app_master', 'app', 'solo'].include?(node[:instance_role])
   node[:applications].each do |app_name, data|
